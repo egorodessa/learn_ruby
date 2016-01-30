@@ -113,7 +113,10 @@
 #       "Hello, #{who}!"
 #     end
 #
-require "hello"
+
+#require "hello"
+require_relative "hello.rb"
+#require File.expand_path("hello", File.dirname("/home/egor/ruby/learn_ruby/00_hello"))﻿
 
 describe "the hello function" do
   it "says hello" do
