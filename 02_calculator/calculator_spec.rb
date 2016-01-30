@@ -33,7 +33,8 @@
 #
 #
 
-require "calculator"
+# require "calculator"
+require_relative "calculator.rb"
 
 describe "add" do
   it "adds 0 and 0" do
