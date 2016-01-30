@@ -15,7 +15,8 @@
 #    1.0 / 2.0 => 0.5
 #
 
-require "temperature"
+#require "temperature"
+require_relative "temperature.rb"
 
 describe "temperature conversion functions" do
 
