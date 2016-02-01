@@ -11,7 +11,8 @@
 # When you make the second `repeat` test pass, you might break the **first**
 #
 
-require "simon_says"
+# require "simon_says"
+require_relative "simon_says.rb"
 
 describe "Simon says" do
   describe "echo" do
